@@ -1,0 +1,20 @@
+{
+  "name": "atlas-web_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "express": "^4.21.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^14.7.0",
+    "lodash": "^4.17.21",
+    "react-apollo": "^3.1.5"
+  }
+}
