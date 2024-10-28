@@ -1,0 +1,11 @@
+{
+  task(id:1) {
+    title
+    weight
+    description
+    project {
+      title
+
+    }
+  }
+}
