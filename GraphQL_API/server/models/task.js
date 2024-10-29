@@ -7,6 +7,7 @@ const taskSchema = new Schema({
     weight: Number,
     description: String,
     projectId: String
+
 });
 
 const Task = model('Task', taskSchema);

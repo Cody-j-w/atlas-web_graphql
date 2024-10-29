@@ -2,6 +2,7 @@ const express = require('express');
 const {graphqlHTTP} = require('express-graphql');
 const schema = require('./schema/schema');
 const mongoose = require('mongoose');
+
 const app = express();
 const uri = "mongodb+srv://codywalenciak:root@cluster0.gzbis.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
